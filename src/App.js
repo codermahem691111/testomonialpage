@@ -27,7 +27,7 @@ function App() {
   return (
   <>
  
- <Testomonial></Testomonial>
+ <Studypage></Studypage>
 
  </>
 
