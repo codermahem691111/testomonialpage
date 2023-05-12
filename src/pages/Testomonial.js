@@ -8,7 +8,15 @@ import Picx2 from '../images/Testomonials/img-2.jpg'
 import Picx3 from '../images/Testomonials/img-3.jpg'
 import Picx4 from '../images/Testomonials/img-4.jpg'
 import './testomonial.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from "react";
 export const Testomonial = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+  
   return (
     <div>
     
@@ -60,8 +68,8 @@ export const Testomonial = () => {
     <a><h3 className='text-xl text-neutral-700 text-center mt-5 mb-5'>~Customers  Testimonial</h3></a>
     <a><h3 className='text-xl text-neutral-700 text-center mt-5 mb-5'>~Customers  Testimonial</h3></a>
     <a><h3 className='text-xl text-neutral-700 text-center mt-5 mb-5'>~Customers  Testimonial</h3></a>
-    <a><h3 className='text-xl text-neutral-700 text-center mt-5 mb-5'>~Customers  Testimonial</h3></a>
-    <a><h3 className='text-xl text-neutral-700 text-center mt-5 mb-5'>~Customers  Testimonial</h3></a>
+
+ 
     </div>
   </div>
 
