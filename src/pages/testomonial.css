@@ -136,6 +136,7 @@ p {
 
   width: 370px;
  overflow-x: hidden;
+ overflow-y:hidden;    
 
 
  }
